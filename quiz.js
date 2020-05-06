@@ -146,7 +146,7 @@ function scoreRender(){
               (scorePerCent >= 60) ? "asset/4.png" :
               (scorePerCent >= 40) ? "asset/3.png" :
               (scorePerCent >= 20) ? "asset/2.png" :
-              "asset/img/1.png";
+              "asset/1.png";
     
     scoreDiv.innerHTML = "<img src="+ img +">";
     scoreDiv.innerHTML += "<p>"+ scorePerCent +"%</p>";
