@@ -127,11 +127,19 @@ function checkAnswer(answer){
 // answer is correct
 function answerIsCorrect(){
     document.getElementById(runningQuestion).style.backgroundColor = "#0f0";
+    var source = "asset/betul.mp3"
+    var audio = new Audio();
+    audio.src = source;
+    audio.autoplay = true;
 }
 
 // answer is Wrong
 function answerIsWrong(){
     document.getElementById(runningQuestion).style.backgroundColor = "#f00";
+    var source = "asset/benar.mp3"
+    var audio = new Audio();
+    audio.src = source;
+    audio.autoplay = true;
 }
 
 // score render
